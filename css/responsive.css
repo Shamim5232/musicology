@@ -1,0 +1,135 @@
+@media (max-width:1200px) {
+    .nav{
+        padding: 2rem 8%;
+    }
+    .search_container{
+        top: 11.5%;
+    }
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width:991px) {
+    .nav{
+        padding: 2rem 5%;
+    }
+    html{
+        font-size: 60%;
+    }
+    .search_container{
+        top: 12%;
+    }
+}
+
+@media (max-width:768px) {
+    
+    html{
+        font-size: 55%;
+    }
+    .search_container{
+        top: 12.5%;
+    }
+    #menuBar{
+        display: inline-block;
+        margin-left: 1rem;
+    }
+    .nav nav{
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: var(--light-black);
+        border-top:.1rem solid #cacaca;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .nav nav.NavActive{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    /* .nav #search_bar{
+        margin-right: -47%;
+    } */
+    .nav nav a{
+        display:block;
+        background: black;
+        padding: 1rem 1.2rem;
+        margin: 1rem;
+        border-radius: .5rem;
+    }
+    .hero_part .hero_inner_box .hero_text h1{
+        font-size: 5.5rem;
+    }
+    .litle_des{
+        width: 80%;
+    }
+    .input_group{
+        /* border: .1rem solid #fff; */
+        background: #fff;
+        width: 100%;
+    }
+    .newsletter {
+        width: 100%;
+    }
+    .newsletter .news_box .newsText p{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .newsletter .news_box .newsText h3{
+        font-size: 3rem;
+        letter-spacing: .5rem;
+    }
+    .footerImg{
+        position: absolute;
+        height: 20rem;
+        width: 20rem;
+        right: 3rem;
+        top: 77%;
+    }
+}
+@media (max-width:576px) {
+    
+    .search_container{
+        top: 13%;
+    }
+    .hero_part .hero_inner_box{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero_text{
+        text-align: center;
+    }
+    .hero_part .hero_inner_box .hero_text p{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .dacne_text {
+        float: none;
+        width: 100%;
+    }
+    .dacnce_img {
+        float: none;
+        width: 100%;
+    }
+
+    .counter_box{
+       flex-direction: column;
+    }
+    .counter_box .single_counter{
+        margin: 3rem 0;
+    }
+}
+@media (max-width:400px) {
+    
+    .search_container{
+        top: 14%;
+    }
+    .nav #search_bar{
+        margin-right: -30%;
+    }
+}
+
+@media (max-width:200px) {
+    .nav #search_bar{
+        margin-right: -30%;
+    }
+}
